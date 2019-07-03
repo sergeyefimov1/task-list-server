@@ -34,7 +34,6 @@ class TaskController extends Controller
 
         return response()->json([
             'message' => 'Successfully updated task!',
-            'task' => var_dump($task)
         ]);
     }
 
